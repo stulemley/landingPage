@@ -173,5 +173,9 @@ button {
     text-align: center;
     background-color: #1f2937;
     color: white;
-    padding: 36px 620px;
+    padding: 36px 600px;
+}
+
+.footer p {
+    padding: 20px;
 }
