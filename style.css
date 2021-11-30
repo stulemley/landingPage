@@ -28,7 +28,7 @@ body {
 }
 
 .header-box {
-    padding: 0px 120px;
+    padding: 0px 135px;
 }
 
 .top-bar h4 {
@@ -64,6 +64,9 @@ a {
 .content-text {
     height: 150px;
     width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .content-text h1 {
@@ -82,14 +85,20 @@ a {
     background-color: lightgrey;
 }
 
-.button {
+button {
+    width: 120px;
+    padding: 12px;
+    font-size: 18px;
+    color: #F9FAF8;
     background-color: #3882f6;
+    border-radius: 12px;
 }
 
 .box-gallery {
     display: flex;
     flex-direction: column;
     background-color: #F9FAF8;
+    padding: 60px 160px;
 }
 
 .box-gallery h2 {
@@ -102,13 +111,21 @@ a {
 .flex-galleryItems {
     display: flex;
     justify-content: space-around;
+    gap: 20px;
+    padding: 60px;
 }
 
 .box-gallery-item {
-    border: 2px solid coral;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
     text-align: center;
-    padding: 8px;
-    width: 200px;
+}
+
+.box-gallery-item img {
+    padding: 90px;
+    border: cornflowerblue solid 4px;
+    border-radius: 40px;
 }
 
 .highlightedMessage {

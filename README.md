@@ -1,2 +1,2 @@
 # landingPage
-built with html and css
+built with html and css using flex-box
