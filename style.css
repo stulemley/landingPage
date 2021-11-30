@@ -111,15 +111,15 @@ button {
 .flex-galleryItems {
     display: flex;
     justify-content: space-around;
-    gap: 20px;
+    gap: 40px;
     padding: 60px;
 }
 
 .box-gallery-item {
     display: flex;
     flex-direction: column;
-    gap: 12px;
     text-align: center;
+    gap: 12px;
 }
 
 .box-gallery-item img {
@@ -130,21 +130,20 @@ button {
 
 .highlightedMessage {
     background-color: #E5E7EB;
-}
-
-.highlightedMessage-box {
-    padding: 36px;
+    padding: 160px;
 }
 
 .highlightedMessage h2 {
     font-style: italic;
     font-size: 36px;
     font-weight: 100;
-    text-align: center;
 }
 
 .highlightedMessage h6 {
+    font-size: 24px;
+    font-weight: bold;
     text-align: end;
+    margin-right: 40px;
 }
 
 .flex-box-callToAction {
