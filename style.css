@@ -146,16 +146,32 @@ button {
     margin-right: 40px;
 }
 
+.flex-container-callToAction {
+    padding: 75px;
+    background-color: #F9FAF8;
+}
+
 .flex-box-callToAction {
     width: 800px;
     display: flex;
     justify-content: space-around;
     color: #1f2937;
     background-color: #3882f6;
+    padding: 80px 280px;
+    border-radius: 20px;
+}
+
+.container-text h4 {
+    font-size: 28px;
+}
+
+.container-text p {
+    font-size: 24px;
 }
 
 .footer {
     text-align: center;
     background-color: #1f2937;
     color: white;
+    padding: 36px 620px;
 }
